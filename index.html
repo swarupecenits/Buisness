@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <div class="top-banner ">
         <div class="container">
             <div class="small-bold-text banner-text">"Unveiling Creative Horizons: A Journey Through My Portfolio"</div>
@@ -302,6 +303,13 @@
 
 
     <script src="https://kit.fontawesome.com/4f009e6e38.js" crossorigin="anonymous"></script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display="none";
+        })
+    </script>
 </body>
 
 </html>
